@@ -1,0 +1,51 @@
+.box{
+    border:2px solid black;
+    height:200px;
+    width:150px;
+    /* background-image:linear-gradient(red,blue);
+    background-image:linear-gradient(to right,red,blue);
+    background-image:linear-gradient(to left,red,blue);
+    background-image:linear-gradient(to top,red,blue);
+    background-image:linear-gradient(to bottom right,red,blue);
+    background-image:linear-gradient(to bottom right,rgb(253, 24, 24),rgb(237, 245, 12),rgb(200, 71, 7)); */
+    background-image:linear-gradient(to top right,orange,red,yellow,green,pink);
+    margin:5px;
+}
+#div2{
+    border:2px solid black;
+    height:400px;
+    width:400px;
+    background-image:radial-gradient(red,rgb(4, 4, 2),green);
+    background-image:radial-gradient(red,blue,orange);
+    background-image:radial-gradient(circle closest-side,red,blue,orange);
+    margin:5px;
+}
+
+
+#div3{
+    border:2px solid black;
+    height:400px;
+    width:400px;
+    background-image:radial-gradient(red,yellow,green);
+    background-image:radial-gradient(red,blue,orange);
+    background-image:radial-gradient(circle farthest-corner,red,blue,orange);
+    margin:5px;
+}
+#div4{
+    border:2px solid black;
+    height:400px;
+    width:400px;
+    background-image:radial-gradient(red,yellow,green);
+    background-image:radial-gradient(red,blue,orange);
+    background-image:radial-gradient(circle closest-corner,red,blue,orange);
+    margin:5px;
+}
+#div5{
+    border:2px solid black;
+    height:400px;
+    width:400px;
+    background-image:radial-gradient(red,yellow,green);
+    background-image:radial-gradient(red,blue,orange);
+    background-image:radial-gradient(circle farthest-side,red,blue,orange);
+    margin:5px;
+}

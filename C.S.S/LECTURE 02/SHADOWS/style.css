@@ -1,0 +1,20 @@
+h1{
+    text-shadow:2px 3px 3px red;
+    text-shadow:2px 2px 3px red,6px 6px 4px green;
+    text-shadow:0 0 10px blue;
+}
+.box{
+    background-color:aqua;
+    height:200px;
+    width:200px;
+    box-shadow:10px 10px 15px red,15px 15px 5px rgb(184, 156, 45);
+    box-shadow:-10px -10px 30px red;
+    box-shadow:0 0 0 5px red;
+    margin-bottom:15px;  
+}
+.box1{
+    background-color:aqua;
+    height:200px;
+    width:200px;
+    box-shadow:0 0 0 5px red;  
+}
